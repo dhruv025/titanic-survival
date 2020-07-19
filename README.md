@@ -9,6 +9,7 @@ Major Steps followed during the project -
 Dataset has been downloaded from kaggle. The dataset consist of 891 rows and 12 columns.
 
 2. Feature Engineering – 
+
 In this, first of all I have checked for the missing values in the dataset if any. Since, Age feature has 177 missing values. So,
 I have used fillna() method to fill the missing values.
 Also, done exploratory data analysis to analyze the data with the help of seaborn library which is used for data visualization from which I came to know that the                         count of no. of males is more than no. of females who have not survived.
