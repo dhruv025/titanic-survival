@@ -16,9 +16,9 @@ Also, done exploratory data analysis to analyze the data with the help of seabor
 
 Now, handling some categorical values, there are two types of categorical values which are as follows:
 
-### a. Nominal data → data is not in any order.
+#### a. Nominal data → data is not in any order.
 
-### b. Ordinal data → data is in order.
+#### b. Ordinal data → data is in order.
 
 Since, we have two categorical features and both of them lie under the nominal data. So, I have used one hot encoding to convert them into numerical values.
 Since, our machine learning model will only able to understand numbers and give better performance.
