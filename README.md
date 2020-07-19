@@ -15,7 +15,9 @@ I have used fillna() method to fill the missing values.
 Also, done exploratory data analysis to analyze the data with the help of seaborn library which is used for data visualization from which I came to know that the                         count of no. of males is more than no. of females who have not survived.
 
 Now, handling some categorical values, there are two types of categorical values which are as follows:
+
 a. Nominal data → data is not in any order.
+
 b. Ordinal data → data is in order.
 
 Since, we have two categorical features and both of them lie under the nominal data. So, I have used one hot encoding to convert them into numerical values.
