@@ -8,7 +8,7 @@ Major Steps followed during the project -
 
 Dataset has been downloaded from kaggle. The dataset consist of 891 rows and 12 columns.
 
-2. Feature Engineering – 
+2.Feature Engineering – 
 
 In this, first of all I have checked for the missing values in the dataset if any. Since, Age feature has 177 missing values. So,
 I have used fillna() method to fill the missing values.
@@ -25,7 +25,7 @@ Since, our machine learning model will only able to understand numbers and give 
 
 Now, our dataset is ready for applying to any machine learning algorithm.
 
-3. Model Training – 
+3.Model Training – 
 
 In this first of all, I have divide the dataset into train and test using the train_test_split method of sklearn.
 For training the dataset, I have used various classification algorithms KneighborsClassifier, DecisionTree , SupportVector and RandomForest. Out of these four algorithms, Random Forest gives a result of accuracy 83.52 %.
