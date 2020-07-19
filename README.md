@@ -2,8 +2,8 @@
 
 In this project, our task is to create a machine learning model on the Titanic Dataset which predicts whether a passenger on the titanic would have been survived or not. Some of the classification algorithms have been used, out of which RandomForestClassifier gives the best result.
 
-Major Steps followed during the project -
-1. Data Gathering – Dataset has been downloaded from kaggle. The dataset consist of 891 rows and 12 columns.
+# Major Steps followed during the project -
+1.Data Gathering – Dataset has been downloaded from kaggle. The dataset consist of 891 rows and 12 columns.
 
 2. Feature Engineering – In this, first of all I have checked for the missing values in the dataset if any. Since, Age feature has 177 missing values. So,
 I have used fillna() method to fill the missing values.
